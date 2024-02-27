@@ -26,6 +26,8 @@ img{
     padding: 60px 50px 30px;
     height: calc(100% - 120px);
     background-color: black;
+    /* scroll function for ultrawide monitors */
+    /* overflow-y: scroll; */
 }
 
 /* Division in colums */

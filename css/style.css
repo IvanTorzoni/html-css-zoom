@@ -11,7 +11,7 @@ img{
 }
 
 /* Main */
-
+/* Wrapper */
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -34,9 +34,6 @@ img{
     width: calc(100% / 7);
     max-height: 100%;
     padding: 5px 3px;
-    /* debug */
-    background-color: yellow;
-    border: 1px solid black;
 }
 
 /* dimension images */
@@ -45,6 +42,35 @@ img{
     width: 100%;
 }
 
+/* Overlay of users microphone and name */
+.overlay{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    bottom: 0.3rem;
+    background-color: rgba(96, 111, 123, 0.5);
+    z-index: 1;
+}
+
+.col h4, i{
+    position: absolute;
+    bottom: 0.6rem;
+    color: white;
+    z-index: 2;
+}
+
+i{
+    left: 0.3rem;
+}
+
+h4{
+    left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+/* zoom option part */
 .zoom-option{
     height: 120px;
     background-color: rgba(34, 34, 34, 1);
